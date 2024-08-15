@@ -21,21 +21,17 @@ You'll need the following Python packages: `google-auth`, `google-auth-oauthlib`
 pip install -r requirements.txt
 ```
 
-### 3. Write the Python Script
-
-Refer to the `script.py` file in this repository for an example script that syncs with your Google Calendar, pulls the free times between a specified start and end time each day, and calculates the total number of free hours over a given timeframe.
-
-### 4. Script Explanation
-
-You can modify the `start_hour`, `end_hour`, and `days` variables in the `main()` function to match your requirements.
-
-### 5. Run the Script
+### 4. Run the Script
 
 Ensure your `credentials.json` file is in the same directory as the script. Run the script, and it will output the free hours per day and the total free hours over the specified timeframe.
 
+Enter the start time, end time and number of days when prompted by the script.
+
+Times are to be given in 24 hr time. Ensure to only give the starting hour.
+
 ## Customization
 
-Feel free to customize the script based on your specific needs. For example, you can exclude weekends or handle multiple calendars.
+Feel free to customize the script based on your specific needs. For example, you can exclude weekends or handle multiple calendars. (Plan on adding this at some point)
 
 ## License
 
