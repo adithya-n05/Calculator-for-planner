@@ -5,7 +5,6 @@ from googleapiclient.discovery import build
 import datetime
 import os
 import pytz
-import argparse
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 
