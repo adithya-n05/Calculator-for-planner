@@ -18,7 +18,7 @@ To use this script, follow the steps below:
 You'll need the following Python packages: `google-auth`, `google-auth-oauthlib`, `google-auth-httplib2`, `google-api-python-client`, and `datetime`. Install them using pip:
 
 ```bash
-pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+pip install -r requirements.txt
 ```
 
 ### 3. Write the Python Script
