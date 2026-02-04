@@ -32,7 +32,3 @@ Times are to be given in 24 hr time. Ensure to only give the starting hour.
 ## Customization
 
 Feel free to customize the script based on your specific needs. For example, you can exclude weekends or handle multiple calendars. (Plan on adding this at some point)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
